@@ -1,0 +1,25 @@
+{
+    "name": "marketplacekit/moderatelistings",
+    "description": "",
+    "authors": [
+        {
+            "name": "MarketplaceKit Team",
+            "email": "contact@marketplacekit.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\ModerateListings\\Providers\\ModerateListingsServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ModerateListings\\": ""
+        }
+    }
+}

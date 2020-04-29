@@ -1,0 +1,17 @@
+{
+    "name": "Homepage widgets",
+    "alias": "homepage",
+    "thumbnail": "https:\/\/marketplace-kit.s3.amazonaws.com\/addons\/homepage_widgets.png",
+    "description": "Customize your homepage with widgets, latest listings, categories and more.",
+    "keywords": [],
+    "active": 1,
+    "order": 100,
+    "providers": [
+        "Modules\\Homepage\\Providers\\HomepageServiceProvider"
+    ],
+    "aliases": [],
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

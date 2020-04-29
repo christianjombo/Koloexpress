@@ -1,0 +1,25 @@
+{
+    "name": "marketplacekit/homepage",
+    "description": "",
+    "authors": [
+        {
+            "name": "MarketplaceKit Team",
+            "email": "contact@marketplacekit.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Homepage\\Providers\\HomepageServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Homepage\\": ""
+        }
+    }
+}

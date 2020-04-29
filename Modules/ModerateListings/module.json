@@ -1,0 +1,17 @@
+{
+    "name": "Moderate Listings",
+    "alias": "moderatelistings",
+    "thumbnail": "http:\/\/marketplace-kit.s3.amazonaws.com\/addons\/moderatelistings.png",
+    "description": "Allow moderators to moderate listings",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\ModerateListings\\Providers\\ModerateListingsServiceProvider"
+    ],
+    "aliases": [],
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

@@ -1,0 +1,13 @@
+{% extends "layouts.app" %}
+
+{% block content %}
+
+    {% for widget in widgets %}
+    <div class="bg-{{ widget.background }}">
+        <div class="container-fluid pt-5 pb-5">
+            {{ Widget.run('Modules.Homepage.Widgets.' ~ widget.type, {'limit': 4, 'columns': 4, 'number': 3}, widget) | raw }}
+        </div>
+    </div>
+    {% endfor %}
+
+{% endblock %}
