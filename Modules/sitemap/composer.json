@@ -1,0 +1,26 @@
+{
+    "name": "marketplacekit/sitemap",
+    "thumbnail": "https://marketplace-kit.s3.amazonaws.com/addons/sitemap.png",
+    "description": "",
+    "authors": [
+        {
+            "name": "MarketplaceKit Team",
+            "email": "contact@marketplacekit.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Sitemap\\Providers\\SitemapServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Sitemap\\": ""
+        }
+    }
+}

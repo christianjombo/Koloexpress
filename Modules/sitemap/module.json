@@ -1,0 +1,17 @@
+{
+    "name": "Sitemap",
+    "alias": "sitemap",
+    "thumbnail": "https:\/\/marketplace-kit.s3.amazonaws.com\/addons\/sitemap.png",
+    "description": "Generate a sitemap for Google to index",
+    "keywords": [],
+    "active": 1,
+    "order": 102,
+    "providers": [
+        "Modules\\Sitemap\\Providers\\SitemapServiceProvider"
+    ],
+    "aliases": [],
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
