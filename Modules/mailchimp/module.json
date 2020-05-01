@@ -1,0 +1,17 @@
+{
+    "name": "MailChimp",
+    "alias": "mailchimp",
+    "description": "Connect your marketplace with your MailChimp account (for free)",
+    "thumbnail": "https:\/\/marketplace-kit.s3.amazonaws.com\/addons\/mailchimp.png",
+    "keywords": [],
+    "active": 1,
+    "order": 400,
+    "providers": [
+        "Modules\\MailChimp\\Providers\\MailChimpServiceProvider"
+    ],
+    "aliases": [],
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

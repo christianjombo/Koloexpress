@@ -1,0 +1,25 @@
+{
+    "name": "marketplacekit/mailchimp",
+    "description": "",
+    "authors": [
+        {
+            "name": "MarketplaceKit Team",
+            "email": "contact@marketplacekit.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\MailChimp\\Providers\\MailChimpServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MailChimp\\": ""
+        }
+    }
+}
