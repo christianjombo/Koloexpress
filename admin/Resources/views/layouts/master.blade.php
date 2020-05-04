@@ -108,10 +108,10 @@
         <li class="{{ active(['*pages*', '*menu*']) }}">
             <a href="/panel/pages"><i class="fa fa-file"></i> Content </a>
         </li>
-        <!-- <li class="{{ active(['*addons*']) }}">
+        <li class="{{ active(['*addons*']) }}">
             <a href="/panel/addons"><i class="fa fa-puzzle-piece"></i> Addons </a>
         </li>
-        <li class="{{ active(['*themes*']) }}">
+        <!-- <li class="{{ active(['*themes*']) }}">
             <a href="/panel/themes"><i class="fa fa-paint-brush"></i> Themes </a>
         </li> -->
 		
