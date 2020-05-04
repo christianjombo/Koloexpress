@@ -1,0 +1,17 @@
+{
+    "name": "Ratings & Reviews",
+    "alias": "ratings",
+    "thumbnail": "https:\/\/marketplace-kit.s3.amazonaws.com\/addons\/ratings.png",
+    "description": "Let members review and rate listings",
+    "keywords": [],
+    "active": 1,
+    "order": 200,
+    "providers": [
+        "Modules\\Ratings\\Providers\\RatingsServiceProvider"
+    ],
+    "aliases": [],
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

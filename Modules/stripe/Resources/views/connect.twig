@@ -115,6 +115,7 @@
                 <div class="form-row bank-fields " {% if account %}style="display: none"{% endif %}>
                     <div class="form-group col-md-12">
                         <label class="">{{ field.label }}</label>
+                        {# <label class="">IFSC</label> #}
                         <input class="form-control" id="{{ field.id }}" required type="text" placeholder="" autocomplete="off" {% if account %}disabled{% endif %}>
                     </div>
                 </div>

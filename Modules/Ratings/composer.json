@@ -1,0 +1,25 @@
+{
+    "name": "marketplacekit/ratings",
+    "description": "",
+    "authors": [
+        {
+            "name": "MarketplaceKit Team",
+            "email": "contact@marketplacekit.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Ratings\\Providers\\RatingsServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Ratings\\": ""
+        }
+    }
+}

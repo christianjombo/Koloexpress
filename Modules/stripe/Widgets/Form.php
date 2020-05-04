@@ -101,6 +101,12 @@ class Form extends AbstractWidget
             $fields[] = ['id' => 'clearing_code', 'label' => 'Clearing code'];
             $fields[] = ['id' => 'branch_code', 'label' => 'Branch code'];
         }
+        elseif($country == 'IN') {
+            $fields[] = ['id' => 'bank_name', 'label' => 'Bank Name'];
+            $fields[] = ['id' => 'branch_name', 'label' => 'Branch Name'];
+            $fields[] = ['id' => 'bank_code', 'label' => 'Bank code'];
+            $fields[] = ['id' => 'branch_code', 'label' => 'Branch code'];
+        }
         elseif($country == 'JP') {
             $fields[] = ['id' => 'bank_name', 'label' => 'Bank Name'];
             $fields[] = ['id' => 'branch_name', 'label' => 'Branch Name'];
