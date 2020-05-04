@@ -1,0 +1,17 @@
+{
+    "name": "Memberships",
+    "alias": "memberships",
+    "thumbnail": "https:\/\/marketplace-kit.s3.amazonaws.com\/addons\/memberships.png",
+    "description": "Provide individuals & businesses the option to post listings by subscribing to a plan",
+    "keywords": [],
+    "active": 0,
+    "order": 205,
+    "providers": [
+        "Modules\\Memberships\\Providers\\MembershipsServiceProvider"
+    ],
+    "aliases": [],
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
